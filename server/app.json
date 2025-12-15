@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "5a79acbe-57bf-4251-9d55-db893017e967"
+      }
+    },
+    "android": {
+      "package": "com.jepho123.server"
+    }
+  }
+}

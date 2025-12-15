@@ -1,0 +1,15 @@
+{
+  "name": "taufoods-setup",
+  "version": "1.0.0",
+  "description": "TAUfoods automatic setup script",
+  "main": "setup.js",
+  "bin": {
+    "taufoods-setup": "setup.js"
+  },
+  "scripts": {
+    "setup": "node setup.js",
+    "build:apk": "eas build --platform android --profile preview",
+    "build:prod": "eas build --platform android --profile production",
+    "submit": "eas submit --platform android"
+  }
+}
