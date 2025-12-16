@@ -3,6 +3,7 @@
 ## Quick Deploy to Render (FREE)
 
 1. **Push your code to GitHub:**
+
    ```bash
    git init
    git add .
@@ -16,15 +17,14 @@
    - Sign up with GitHub
    - Click "New +" → "Web Service"
    - Connect your GitHub repository
-   
 3. **Configure the deployment:**
    - **Name**: `taufoods-backend`
    - **Environment**: `Node`
    - **Build Command**: `cd server && npm install`
    - **Start Command**: `cd server && node server.js`
    - **Plan**: Free
-   
 4. **Add Environment Variables:**
+
    - Click "Environment" tab
    - Add these variables:
      ```
@@ -36,6 +36,7 @@
      ```
 
 5. **Deploy!**
+
    - Click "Create Web Service"
    - Wait 5-10 minutes
    - Your backend URL will be: `https://taufoods-backend.onrender.com`

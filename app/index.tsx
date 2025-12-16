@@ -1,21 +1,21 @@
-import React, { useEffect, useState, useRef } from "react";
-import {
-  View,
-  Text,
-  TouchableOpacity,
-  StyleSheet,
-  ActivityIndicator,
-  Animated,
-} from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import React, { useEffect, useRef, useState } from "react";
+import {
+    ActivityIndicator,
+    Animated,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    View,
+} from "react-native";
 
-import Home from "./Home";
 import Cart from "./Cart";
+import Home from "./Home";
 import Orders from "./Orders";
 import Profile from "./Profile";
+import Admin from "./admin";
 import Login from "./login";
 import Signup from "./signup";
-import Admin from "./admin";
 
 export default function Index() {
   const [screen, setScreen] = useState("Home");

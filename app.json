@@ -11,7 +11,7 @@
     "newArchEnabled": true,
     "owner": "jepho123",
     "extra": {
-      "apiUrl": "https://taufoods-backend.onrender.com",
+      "apiUrl": "https://tau-foods.onrender.com",
       "router": {},
       "eas": {
         "projectId": "604c4767-9dd1-4647-9a3d-8be06fef6136"
