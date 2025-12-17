@@ -17,7 +17,7 @@ import {
 
 const BASE_URL = Constants.expoConfig?.extra?.apiUrl || 
   process.env.EXPO_PUBLIC_API_URL || 
-  "http://localhost:5000";
+  "https://tau-foods.onrender.com";
 
 export default function Home({ user }: any) {
   const [foods, setFoods] = useState<any[]>([]);
